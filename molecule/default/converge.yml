@@ -10,7 +10,7 @@
 
   roles:
     - role: geerlingguy.elasticsearch
-    - role: geerlingguy.kibana
+    - role: vahubert.kibana
 
   post_tasks:
     - name: Ensure Kibana is running.
